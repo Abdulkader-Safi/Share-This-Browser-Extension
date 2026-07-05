@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" alt="Share This icon" width="128" height="128">
+</p>
+
 # Share This
 
 A minimal Chrome extension (Manifest V3). Open the popup on any page and click a
@@ -41,3 +45,12 @@ access and nothing runs in the background.
 - `manifest.json` — extension config and permissions.
 - `index.html` — the popup UI (inline styles, inline SVG icons).
 - `script.js` — reads page info and builds the share URLs and Markdown.
+
+## Support
+
+If this plugin is useful, you can support the work at
+[ko-fi.com/abdulkadersafi](https://ko-fi.com/abdulkadersafi).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
