@@ -68,6 +68,21 @@
       min-height: 15px;
       text-align: center;
     }
+
+    footer {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid #e2e2e2;
+      font-size: 11px;
+      text-align: center;
+      opacity: .7;
+    }
+
+    footer a { color: inherit; }
+
+    @media (prefers-color-scheme: dark) {
+      footer { border-top-color: #3a3a3a; }
+    }
   </style>
 </head>
 
@@ -91,6 +106,10 @@
   </div>
 
   <div id="toast"></div>
+
+  <footer>
+    Developed by <a href="https://abdulkadersafi.com" target="_blank" rel="noopener">Abdulkader Safi</a>
+  </footer>
 
   <script src="script.js"></script>
 </body>
