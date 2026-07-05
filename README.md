@@ -7,6 +7,10 @@
 A minimal Chrome extension (Manifest V3). Open the popup on any page and click a
 social icon to share it, or copy the page as a Markdown snippet for your blog.
 
+<p align="center">
+  <img src="popup.png" alt="Share This popup" width="320">
+</p>
+
 ## What it does
 
 - Share the current page to LinkedIn, X, Facebook, WhatsApp, Reddit, Telegram,
@@ -42,9 +46,9 @@ access and nothing runs in the background.
 
 ## Files
 
-- `manifest.json` — extension config and permissions.
-- `index.html` — the popup UI (inline styles, inline SVG icons).
-- `script.js` — reads page info and builds the share URLs and Markdown.
+- `manifest.json`: extension config and permissions.
+- `index.html`: the popup UI (inline styles, inline SVG icons).
+- `script.js`: reads page info and builds the share URLs and Markdown.
 
 ## Support
 
